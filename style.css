@@ -2,3 +2,19 @@ html {
     border: 2px solid green;
     width: 98vw;
 }
+
+tr, th, td {
+    border: 1px solid black;
+    /* width: 100px; */
+    padding: 0px 25px;
+    text-align: center;
+}
+
+th[rowspan], th[colspan], .nota {
+    background-color: gray;
+    color: white;
+}
+
+.materias {
+    padding: 0px 0px;
+}
