@@ -3,6 +3,10 @@ html {
     width: 98vw;
 }
 
+table {
+    border-collapse: collapse;
+}
+
 tr, th, td {
     border: 1px solid black;
     /* width: 100px; */
@@ -17,4 +21,9 @@ th[rowspan], th[colspan], .nota {
 
 .materias {
     padding: 0px 0px;
+}
+
+.block-medias {
+    text-align: left;
+    padding: 0px 4px;
 }
