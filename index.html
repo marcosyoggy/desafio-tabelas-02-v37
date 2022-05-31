@@ -75,12 +75,26 @@
 
         </tbody>
     </table>
-            <h2><a href=" https://marcosyoggy.github.io/desafio-tabelas-02-v37/ " target="_blank">Git Page
-                    Desafio #2</a></h2>
-            <h2><a href="https://github.com/marcosyoggy" target="_blank">Github Marcos</a></h2>
-            <h2><a href="https://github.com/gustavoguanabara" target="_blank">Github Gustavo Guanabara</a></h2>
+    <h2><a href=" https://marcosyoggy.github.io/desafio-tabelas-02-v37/ " target="_blank">Git Page
+            Desafio #2</a></h2>
+    <h2><a href="https://github.com/marcosyoggy" target="_blank">Github Marcos</a></h2>
+    <h2><a href="https://github.com/gustavoguanabara" target="_blank">Github Gustavo Guanabara</a></h2>
+
+    <h2>Construção do código por camadas:</h2>
+    <ol type="1">
+        <li> table&gt; thead&gt; (tr &gt; th*4)+(tr &gt; th*5)</li>
+        <li> tbody&gt; (tr &gt; th{Exatas} + td*4)+ tr*3 &gt; td*4
+            <ul>
+                <li>tr &gt; th{Medias Exatas} + td{0.0}</li>
+                <li>tr &gt; (th{Humanas} + td*4)</li>
+                <li>tr &gt; td*4</li>
+                <li>tr &gt; th{Medias Humanas} + td{0.0}</li>
+            </ul>
+        </li>
+    </ol>
 
 </body>
+
 </html>
 
 

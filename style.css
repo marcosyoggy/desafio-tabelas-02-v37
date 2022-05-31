@@ -28,3 +28,8 @@ th[rowspan], th[colspan], .nota {
     text-align: left;
     padding: 0px 4px;
 }
+
+ol {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+}
